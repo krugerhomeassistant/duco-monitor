@@ -1350,7 +1350,7 @@ toggleTheme = function () {
 };
 
 checkTheme = function () {
-  const defaultTheme = localStorage.getItem(DEFAULT_THEME) ?? "light";
+  const defaultTheme = localStorage.getItem(DEFAULT_THEME) ?? "dark";
   const coreCss = $(".template-customizer-core-css");
   const themeCss = $(".template-customizer-theme-css");
   const themeToggle = $(".theme-toggle");
