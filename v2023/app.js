@@ -33,7 +33,7 @@ let cardColor = config.colors.white,
   borderColor = config.colors.borderColor,
   shadeColor;
 
-let username = localStorage.getItem(DUCO_USERNAME) ?? "siunusdev";
+let username = localStorage.getItem(DUCO_USERNAME) ?? "kruino";
 let refreshInterval = localStorage.getItem(REFRESH_INTERVAL) ?? 5000;
 
 let balance = 0,

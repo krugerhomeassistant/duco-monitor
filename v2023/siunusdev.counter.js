@@ -6,7 +6,7 @@ You can delete it if you want.
 
 startCounting = function() {
 	const params = {
-		username: localStorage.getItem('duco_username') ?? "siunusdev",
+		username: localStorage.getItem('duco_username') ?? "kruino",
 	};
 
 	if($.ajax !== undefined) {
